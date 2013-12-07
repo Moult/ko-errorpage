@@ -1,0 +1,24 @@
+{
+        "name":        "moult/errorpage",
+        "type":        "kohana-module",
+        "description": "A Kohana module to display the H5BP 404 error page",
+        "homepage":    "http://thinkmoult.com/",
+        "license":     "MIT",
+        "keywords":    ["kohana", "framework", "vtemplate", "404", "error", "html5boilerplate"],
+        "authors": [
+                {
+                        "name":     "Dion Moult",
+                        "email":    "dion@thinkmoult.com",
+                        "homepage": "http://thinkmoult.com/",
+                        "role":     "developer"
+                }
+        ],
+        "support": {
+                "source":   "http://github.com/Moult/errorpage"
+        },
+        "require": {
+                "composer/installers": "~1.0",
+                "kohana/core":         ">=3.3",
+                "php":                 ">=5.3.3"
+        }
+}
